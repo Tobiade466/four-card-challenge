@@ -1,0 +1,50 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.top-section{
+  text-align: center
+}
+.reliable{
+    font-size: 20px
+}
+.Our{
+    font-size: 14px
+}
+.grid{
+   display: grid;
+   grid-template-columns: auto auto auto
+}
+.left hr{
+   color:hsl(180, 62%, 55%);
+}
+.mid-top hr{
+    color:hsl(0, 78%, 62%)
+}
+.mid-bottom hr{
+    color:hsl(34, 97%, 64%)
+}
+.right hr{
+    color: hsl(212, 86%, 64%)
+}
+.mid-top{
+    box-shadow: 0px  50px 50px 0px whitesmoke
+ }
+.mid-bottom{
+    box-shadow: 0px 50px 50px 0px whitesmoke
+}
+.left{
+    box-shadow: 0px 50px 50px 0px whitesmoke;
+}
+.right{
+    box-shadow: 0px 50px 50px 0px whitesmoke
+}
+
+ @media only screen and (max-width: 375px)
+{
+    .grid{
+        display: block;
+    }
+ }
